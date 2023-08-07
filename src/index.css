@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto Slab', serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  background-color: #FEF4EB;
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.header-logo{
+    max-width: 100px;
+  }
+.header-text{
+color: #085659;
+text-align: right ;
+flex: auto;
+margin-top: 19px;
+font-weight:bolder;
+ }
+  
+
+
