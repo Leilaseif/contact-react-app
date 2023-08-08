@@ -1,11 +1,18 @@
-import logo from './logo.svg';
-import React from 'react';
-import './App.css';
-import Header from "./Header"
+import React from "react";
+import "./App.css";
+import Main from "./Main";
+import Info from "./Info";
+
+import Header from "./Header";
+
 function App() {
+  const contact = Info.map((item) => {
+    return <Main {...item} />;
+  });
   return (
-    <div className="App">
-      <Header/>
+    <div>
+      <Header />
+      <div className="Info">{contact}</div>
     </div>
   );
 }
